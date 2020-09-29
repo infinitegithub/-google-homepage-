@@ -94,7 +94,7 @@
   grid-template-columns: auto auto auto auto 55% auto auto;
   padding: 10px 10px;
   grid
-  background-color: #f2f2f2;
+  background: #f2f2f2 ;
   border: solid 1px #d4d3d3;
 }
 .morocco {
