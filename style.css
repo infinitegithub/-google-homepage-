@@ -1,0 +1,114 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(78, 76, 76);
+}
+.waffle img {
+  width: 17px;
+  margin: 0px 10px;
+}
+.userimage img {
+  width: 30px;
+  border-radius: 50%;
+  margin: 14px 0px;
+}
+.logogoogle {
+  position: absolute;
+  top: 154px;
+  left: 540px;
+}
+#searchbar {
+  position: absolute;
+  top: 280px;
+  left: 420px;
+  border: whitesmoke solid 1px;
+  border-radius: 24px;
+  outline: none;
+  padding: 14px 27px;
+  background: transparent;
+}
+#searchicon {
+  position: absolute;
+  top: 296px;
+  left: 430px;
+  opacity: 60%;
+}
+.micicon {
+  position: absolute;
+  top: 296px;
+  right: 437px;
+  width: 18px;
+  opacity: 55%;
+}
+#googlesearch {
+  position: absolute;
+  top: 350px;
+  left: 535px;
+  width: 123px;
+  height: 35px;
+  border: none;
+}
+#searchbar:hover {
+  box-shadow: 0px 0px 13px -9px;
+}
+#imfeelinglucky {
+  position: absolute;
+  top: 350px;
+  left: 681px;
+  width: 123px;
+  height: 35px;
+  border: none;
+}
+#imfeelinglucky:hover,
+#googlesearch:hover {
+  color: black;
+  border: 1px #dad5d5 solid;
+}
+.languages {
+  position: absolute;
+  left: 571px;
+  bottom: 183px;
+}
+
+.navlinks a {
+  padding: 0px 5px;
+}
+.navlinks {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 30px;
+}
+.navfooter {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto 55% auto auto;
+  padding: 10px 10px;
+  grid
+  background-color: #f2f2f2;
+  border: solid 1px #d4d3d3;
+}
+.morocco {
+  position: absolute;
+  left: 0px;
+  bottom: 39px;
+  width: 100%;
+  padding: 10px 0px 10px 10px;
+  background-color: #f2f2f2;
+  border: solid 1px #d4d3d3;
+}
+a:hover {
+  text-decoration: underline;
+}
+.bluecolor {
+  color: rgb(64, 64, 189);
+}
